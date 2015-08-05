@@ -5,6 +5,8 @@ class String
       true
     elsif user_a == "rock" && user_b == "paper"
       false
+    elsif user_a == "paper" && user_b == "scissors"
+      false
     end
   end
 end
