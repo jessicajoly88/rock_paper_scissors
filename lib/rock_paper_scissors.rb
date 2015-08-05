@@ -5,9 +5,15 @@ class String
       true
     elsif user_a == "rock" && user_b == "paper"
       false
+    elsif user_a == "scissors" && user_b == "rock"
+      false
+    elsif user_a == "scissors" && user_b == "paper"
+      true
     elsif user_a == "paper" && user_b == "scissors"
       false
-    elsif user_a == user_b 
+    elsif user_a == "paper" && user_b == "rock"
+      true
+    elsif user_a == user_b
       nil
     end
   end
