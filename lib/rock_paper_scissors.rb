@@ -7,7 +7,7 @@ class String
       false
     elsif user_a == "paper" && user_b == "scissors"
       false
-    elsif user_a == "paper" && user_b == "paper"
+    elsif user_a == user_b 
       nil
     end
   end
